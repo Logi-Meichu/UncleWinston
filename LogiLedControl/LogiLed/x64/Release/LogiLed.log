@@ -1,0 +1,9 @@
+﻿LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedSetLightingForKeyWithKeyName(enum LogiLed::KeyName,int,int,int)" (?LogiLedSetLightingForKeyWithKeyName@@YA_NW4KeyName@LogiLed@@HHH@Z)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedSaveCurrentLighting(void)" (?LogiLedSaveCurrentLighting@@YA_NXZ)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedSetLighting(int,int,int)" (?LogiLedSetLighting@@YA_NHHH@Z)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedRestoreLighting(void)" (?LogiLedRestoreLighting@@YA_NXZ)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedSetTargetDevice(int)" (?LogiLedSetTargetDevice@@YA_NH@Z)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "void __cdecl LogiLedShutdown(void)" (?LogiLedShutdown@@YAXXZ)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedFlashSingleKey(enum LogiLed::KeyName,int,int,int,int,int)" (?LogiLedFlashSingleKey@@YA_NW4KeyName@LogiLed@@HHHHH@Z)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedInitWithName(char const * const)" (?LogiLedInitWithName@@YA_NQEBD@Z)
+C:\BD\GitHub\Hackathon\LogiLed\x64\Release\LogiLed.exe : fatal error LNK1120: 8 個無法解析的外部符號

@@ -1,0 +1,7 @@
+﻿  LogiLed.cpp
+C:\BD\GoogleDrive\Hackathon\TESTS\Logi_SetTargetZone_Sample_CPP\Samples\Logi_SetTargetZone_Sample_CPP\Logi_SetTargetZone_Sample_CPP\LogiLed.cpp(145,15): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\BD\GoogleDrive\Hackathon\TESTS\Logi_SetTargetZone_Sample_CPP\Samples\Logi_SetTargetZone_Sample_CPP\Logi_SetTargetZone_Sample_CPP\LogiLed.cpp(183,67): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\BD\GoogleDrive\Hackathon\TESTS\Logi_SetTargetZone_Sample_CPP\Samples\Logi_SetTargetZone_Sample_CPP\Logi_SetTargetZone_Sample_CPP\LogiLed.cpp(205,35): warning C4018: '<': signed/unsigned 不相符
+  stdafx.cpp
+  正在產生程式碼...
+  LogiLed.vcxproj -> C:\BD\GitHub\Hackathon\LogiLed\Debug\LogiLed.exe

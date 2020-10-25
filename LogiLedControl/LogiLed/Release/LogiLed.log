@@ -1,0 +1,12 @@
+﻿  LogiLed.cpp
+C:\BD\GoogleDrive\Hackathon\TESTS\Logi_SetTargetZone_Sample_CPP\Samples\Logi_SetTargetZone_Sample_CPP\Logi_SetTargetZone_Sample_CPP\LogiLed.cpp(145,15): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
+C:\BD\GoogleDrive\Hackathon\TESTS\Logi_SetTargetZone_Sample_CPP\Samples\Logi_SetTargetZone_Sample_CPP\Logi_SetTargetZone_Sample_CPP\LogiLed.cpp(181,67): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\BD\GoogleDrive\Hackathon\TESTS\Logi_SetTargetZone_Sample_CPP\Samples\Logi_SetTargetZone_Sample_CPP\Logi_SetTargetZone_Sample_CPP\LogiLed.cpp(201,35): warning C4018: '<': signed/unsigned 不相符
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedSetLightingForKeyWithKeyName(enum LogiLed::KeyName,int,int,int)" (?LogiLedSetLightingForKeyWithKeyName@@YA_NW4KeyName@LogiLed@@HHH@Z)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedSaveCurrentLighting(void)" (?LogiLedSaveCurrentLighting@@YA_NXZ)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedSetLighting(int,int,int)" (?LogiLedSetLighting@@YA_NHHH@Z)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedSetTargetDevice(int)" (?LogiLedSetTargetDevice@@YA_NH@Z)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedFlashLighting(int,int,int,int,int)" (?LogiLedFlashLighting@@YA_NHHHHH@Z)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "void __cdecl LogiLedShutdown(void)" (?LogiLedShutdown@@YAXXZ)
+LogiLed.obj : error LNK2001: 無法解析的外部符號 "bool __cdecl LogiLedInitWithName(char const * const)" (?LogiLedInitWithName@@YA_NQBD@Z)
+C:\BD\GitHub\Hackathon\LogiLed\Release\LogiLed.exe : fatal error LNK1120: 7 個無法解析的外部符號
