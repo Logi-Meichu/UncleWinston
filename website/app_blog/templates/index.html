@@ -1,0 +1,96 @@
+{% extends "base_menu.html" %}
+{% block content %}
+<!-- Banner -->
+<section id="banner">
+	<div class="inner">
+		<div class="logo"><span class="icon fa-gem"></span></div>
+		<h2>We Are Uncle Winston</h2>
+		<p>Referenced <a href="http://html5up.net">Here</a></p>
+	</div>
+</section>
+
+<!-- Wrapper -->
+<section id="wrapper">
+	<!-- One -->
+		<section id="one" class="wrapper spotlight style1">
+			<div class="inner">
+				<a href="#" class="image"><img src="{{ url_for('static', filename = 'images/pic01.jpg')}}" alt="" /></a>
+				<div class="content">
+					<h2 class="major">Conditons</h2>
+					<p>Details:</p>
+					<p>Everyone connects to the web,and sets their conditions.If anyone's conditions changes,everybody knows.</p>
+					<p>Someone connects to the web,the keyboard gives out red light.</p>
+					<p>Someone connects leaves the web,the keyboard gives out yellow light.</p>
+					<a href="https://www.youtube.com/" class="special">Learn more</a>
+				</div>
+			</div>
+		</section>
+
+	<!-- Two -->
+		<section id="two" class="wrapper alt spotlight style2">
+			<div class="inner">
+				<a href="#" class="image"><img src="{{ url_for('static', filename = 'images/pic02.jpg')}}" alt="" /></a>
+				<div class="content">
+					<h2 class="major">DJ</h2>
+					<p>drop the beat</p>
+					<a href="#" class="special">Learn more</a>
+				</div>
+			</div>
+		</section>
+
+	<!-- Three -->
+		<section id="three" class="wrapper spotlight style3">
+			<div class="inner">
+				<a href="#" class="image"><img src="{{ url_for('static', filename = 'images/pic03.jpg')}}" alt="" /></a>
+				<div class="content">
+					<h2 class="major">Schedule</h2>
+					<p>Every period of time demonstrates different color.</p>
+					<a href="#" class="special">Learn more</a>
+				</div>
+			</div>
+		</section>
+
+	<!-- Four -->
+		<section id="four" class="wrapper alt style1">
+			<div class="inner">
+				<h2 class="major">More and more</h2>
+				<p>Introduction</p>
+				<section class="features">
+					<article>
+						<a href="#" class="image"><img src="{{ url_for('static', filename = 'images/pic04.jpg')}}" alt="" /></a>
+						<h3 class="major">Decrease the effect caused by other people.</h3>
+						<p>We divise a machine learning program......</p>
+						<a href="#" class="special">Learn more</a>
+					</article>
+					<article>
+						<a href="#" class="image"><img src="{{ url_for('static', filename = 'images/pic05.jpg')}}" alt="" /></a>
+						<h3 class="major">VR meeting</h3>
+						<p>Use VR devices to simulator hte true meeting environment.</p>
+						<a href="#" class="special">Learn more</a>
+					</article>
+					<article>
+						<a href="#" class="image"><img src="{{ url_for('static', filename = 'images/pic06.jpg')}}" alt="" /></a>
+						<h3 class="major">3</h3>
+						<p>Promotion and Resignation</p>
+						<p>If we work at home,when we meet iccident like promotion and resignation,it is hard to deal with it.</p>
+						<p>Thus,......</p>
+						<a href="#" class="special">Learn more</a>
+					</article>
+					<article>
+						<a href="#" class="image"><img src="{{ url_for('static', filename = 'images/pic07.jpg')}}" alt="" /></a>
+						<h3 class="major">Hardware problem</h3>
+						<p>Be easy to use</p>
+						<p>If the user is not a person with CS-background,it must clear when users meet obstacles.</p>
+						<a href="#" class="special">Learn more</a>
+					</article>
+				</section>
+				<ul class="actions">
+					<li><a href="#" class="button">Browse All</a></li>
+				</ul>
+			</div>
+		</section>
+</section>
+{% endblock content %}
+{% block script %}
+<script src="{{url_for('static', filename='js/djshow.js')}}"></script>
+{% endblock script %}

@@ -1,0 +1,19 @@
+{% extends "base_menu.html" %}
+{% block content %}
+<!-- Banner -->
+<section id="banner">
+	<div class="inner">
+		<div class="logo"><span class="icon fa-gem"></span></div>
+		<h2>Showing DJ function</h2>
+	</div>
+</section>
+<section id="wrapper">
+    <div style="padding-left:10vw; padding-right:10vw">
+        <H2>Hello</H2>
+        <input type="button" value="Launch Installer" onclick="window.open('file:///C:/BD/GitHub/Hackathon/exe/start.bat')" />
+    </div>
+</section>
+{% endblock content%}
+{% block script %}
+<script src="{{ url_for('static', filename='js/djshow.js') }}"></script>
+{% endblock script %}
